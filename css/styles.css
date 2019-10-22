@@ -4,7 +4,6 @@ h1 {
 }
 
 .card {
-  /* min-height: 400px; */
   width: 100%;
   height: 100%;
   margin-bottom: 100px;
@@ -21,12 +20,10 @@ div[class*='col']{
 .textA {
   display: block;
   margin-bottom: 0px;
-  /* background-color: green; */
 }
 
 .textB {
   display: none;
-  /* background-color: green; */
 }
 
 .flipped {
