@@ -1,0 +1,13 @@
+.card {
+  height: 100%;
+}
+
+.textA {
+  display: block;
+  background-color: green;
+}
+
+.textB {
+  display: none;
+  background-color: green;
+}
