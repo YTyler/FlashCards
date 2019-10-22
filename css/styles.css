@@ -1,7 +1,17 @@
+h1 {
+  text-align: center;
+  padding: 50px;
+}
+
 .card {
   /* min-height: 400px; */
   width: 100%;
   height: 100%;
+  margin-bottom: 100px;
+}
+
+div[class*='col']{
+  margin-bottom: 2%;
 }
 
 .card-deck {
@@ -10,6 +20,7 @@
 
 .textA {
   display: block;
+  margin-bottom: 0px;
   /* background-color: green; */
 }
 
@@ -19,8 +30,8 @@
 }
 
 .flipped {
-  background-color: blue;
-  color: red;
+  background-color: #5bcf76;
+  color: white;
 }
 
 .card-footer {
