@@ -11,9 +11,12 @@ $(document).ready(function() {
   //   $(this).toggleClass("highlight")
   // });
   // EXAMPLES - END
-  $('.card').click(function(){
-    $('.textA').slideToggle();
-    $('.textB').slideToggle();
 
+  $('.card').click(function(){
+    $(this).children().children('.textA').slideToggle();
+    $(this).children().children('.textB').slideToggle();
+
+    // $('.textA').slideToggle();
+    // $('.textB').slideToggle();
   });
 });
